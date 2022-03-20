@@ -1,0 +1,15 @@
+.mynavbar{
+    background-color: #00add6 !important;
+    height: 20vh;
+    font-size: 1.5rem;
+}
+
+.mynavbar a{
+    color: white !important; 
+
+}
+
+#logo{
+    height: 3rem;
+    width: 4.5rem;
+}
