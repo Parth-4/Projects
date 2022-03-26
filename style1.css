@@ -1,15 +1,61 @@
 .mynavbar{
-    background-color: #00add6 !important;
+    /* background-color: #00add6 ; */
     height: 20vh;
     font-size: 1.5rem;
+    z-index: 1.2;
+    opacity: 1;
+    position: absolute;
+    /* box-shadow: 2px 2px 45px 1px black; */
+    /* background-color: #0000ffff; */
+}
+
+.btn-my{
+    background-color: #00add6;
+    border-radius: 0;
+    margin: 10px;
 }
 
 .mynavbar a{
-    color: white !important; 
+    color: #00add6 !important; 
 
+}
+.mynavbar{
+    position: fixed;
+    width: 100%;
 }
 
 #logo{
     height: 3rem;
     width: 4.5rem;
+}
+#front{
+
+    background-image: url('./images/bg7.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    opacity: 0.8
+}
+
+#main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.9; */
+    
+}
+
+#center_info{
+    
+    /* background-color: red; */
+    text-align: center;
+    font-style: bold;
+    color: #00add6;   
+    height: 100px;
+    width: 40%;
+}
+
+#center_info p{
+    font-size: 1.2rem;
 }
