@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif !important;
+font-style: italic;
+background-image: url("./upload/b1.png");
+
+  }
+  nav{
+      font-size: 1rem;
+      color: black;
+      border-bottom: 2px solid black;
+      height: 14vh;
+      /* position: fixed !important; */
+      /* width: 100%; */
+  }
+  nav ul{
+display: flex;
+align-items: center;
+list-style: none;
+text-decoration: none;
+margin: 0.7rem;
+}
+a{
+  color: black !important;
+}
+nav ul li{
+margin: 0.6rem;
+padding: 00.6rem;
+}
+nav ul li a ,a{
+text-decoration: none;
+color: black;
+padding: 0.5rem;;
+}
+nav ul li a:hover{
+text-decoration: none;
+color: white !important;
+background-color: black;
+}
+
+input, textarea{
+    padding: 0.2rem;
+    margin: 0.2rem;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+button{
+    background-color: black !important;
+    color: white;
+    border-radius: 25%;
+    padding: 0.4rem;
+}
+.buttons{
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+    color: white !important;
+    /* border: 2px solid orange; */
+    /* align-content: center; */
+    display: flex;
+    justify-content: center;
+}
+form{
+    /* border: 12px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 40vw;
+    border: 2px solid black;
+    padding: 1.3rem;
+    
+}
+.form{
+    margin-top: 10vh;
+    /* border: 10px solid purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result{
+    background-color: white ;
+    border: 2px solid black;
+    margin: 1.2rem;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+
+}
