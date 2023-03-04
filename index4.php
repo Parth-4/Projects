@@ -289,7 +289,7 @@
         </div>
 
         <div class="item">
-          <img src="./upload/slide2.jpg" alt="Flower" class="bg-img">
+          <img src="./upload/ilide2.jpg" alt="Flower" class="bg-img">
           <div class="carousel-caption">
             <h3>Our special bread and red soup</h3>
             <p> Our handmade organic bread</p>
